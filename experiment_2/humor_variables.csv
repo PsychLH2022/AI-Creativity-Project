@@ -1,0 +1,52 @@
+name,text,type,var
+Q2,Which of the following options better describes your current state?,predictor,state
+Q3_28,"On a scale where 0 is not at all funny and 100 is extremely funny, how funny did you find this joke?",result,funny1
+Q4,Did you have a noticeable emotional reaction after seeing the joke?,predictor,arousal1
+Q5_8,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - physical threat",predictor,violation1_1
+Q5_9,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - identity threat",predictor,violation1_2
+Q5_10,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - illogical",predictor,violation1_3
+Q5_11,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - contrary to your expectation",predictor,violation1_4
+Q5_12,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - bad",predictor,violation1_5
+Q5_13,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - incorrect",predictor,violation1_6
+Q6,Do you think this joke is acceptable?,predictor,accept1
+Q7,Can you come up two different ways to understand the caption?,predictor,jump1
+Q102_28,"On a scale where 0 is not at all funny and 100 is extremely funny, how funny did you find this joke?",result,funny2
+Q103,Did you have a noticeable emotional reaction after seeing the joke?,predictor,arousal2
+Q104_8,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - physical threat",predictor,violation2_1
+Q104_9,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - identity threat",predictor,violation2_2
+Q104_10,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - illogical",predictor,violation2_3
+Q104_11,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - contrary to your expectation",predictor,violation2_4
+Q104_12,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - bad",predictor,violation2_5
+Q104_13,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - incorrect",predictor,violation2_6
+Q105,Do you think this joke is acceptable?,predictor,accept2
+Q106,Can you come up two different ways to understand the caption?,predictor,jump2
+Q107_28,"On a scale where 0 is not at all funny and 100 is extremely funny, how funny did you find this joke?",result,funny3
+Q108,Did you have a noticeable emotional reaction after seeing the joke?,predictor,arousal3
+Q109_8,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - physical threat",predictor,violation3_1
+Q109_9,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - identity threat",predictor,violation3_2
+Q109_10,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - illogical",predictor,violation3_3
+Q109_11,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - contrary to your expectation",predictor,violation3_4
+Q109_12,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - bad",predictor,violation3_5
+Q109_13,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - incorrect",predictor,violation3_6
+Q110,Do you think this joke is acceptable?,predictor,accept3
+Q111,Can you come up two different ways to understand the caption?,predictor,jump3
+Q112_28,"On a scale where 0 is not at all funny and 100 is extremely funny, how funny did you find this joke?",result,funny4
+Q113,Did you have a noticeable emotional reaction after seeing the joke?,predictor,arousal4
+Q114_8,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - physical threat",predictor,violation4_1
+Q114_9,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - identity threat",predictor,violation4_2
+Q114_10,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - illogical",predictor,violation4_3
+Q114_11,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - contrary to your expectation",predictor,violation4_4
+Q114_12,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - bad",predictor,violation4_5
+Q114_13,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - incorrect",predictor,violation4_6
+Q115,Do you think this joke is acceptable?,predictor,accept4
+Q116,Can you come up two different ways to understand the caption?,predictor,jump4
+Q117_28,"On a scale where 0 is not at all funny and 100 is extremely funny, how funny did you find this joke?",result,funny5
+Q118,Did you have a noticeable emotional reaction after seeing the joke?,predictor,arousal5
+Q119_8,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - physical threat",predictor,violation5_1
+Q119_9,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - identity threat",predictor,violation5_2
+Q119_10,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - illogical",predictor,violation5_3
+Q119_11,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - contrary to your expectation",predictor,violation5_4
+Q119_12,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - bad",predictor,violation5_5
+Q119_13,"Do you sense following aspects in the joke? (0 =  no, 10 = definitely yes) - incorrect",predictor,violation5_6
+Q120,Do you think this joke is acceptable?,predictor,accept5
+Q121,Can you come up two different ways to understand the caption?,predictor,jump5
