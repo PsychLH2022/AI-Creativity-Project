@@ -1,0 +1,19 @@
+jsonl_data_866_100_GPT3_5.jsonl
+contest number 688, use GPT-3.5 to fine tune, samples were taken from the three categories at a ratio of 1:3:6, the total number of samples is 100
+moel: ft:gpt-3.5-turbo-1106:personal::8NwQiBQn
+test result(accuracy): 'funny': 0.0, 'somewhat_funny': 0.0, 'not_funny': 1.0
+
+jsonl_data_866_200_GPT3_5.jsonl
+contest number 688, use GPT-3.5 to fine tune, samples were taken from the three categories at a ratio of 1:3:6, the total number of samples is 200
+model: ft:gpt-3.5-turbo-1106:personal::8O79lbHx
+test result(accuracy): 'funny': 0.0, 'somewhat_funny': 0.0, 'not_funny': 1.0
+
+jsonl_data_866_99_GPT3_5_111.jsonl
+contest number 688, use GPT-3.5 to fine tune, samples were taken from the three categories at a ratio of 1:1:1, the total number of samples is 99
+model: ft:gpt-3.5-turbo-1106:personal::8O7b1LlG
+test result(accuracy): 'funny': 0.5, 'somewhat_funny': 0.4117647058823529, 'not_funny': 0.315625
+
+jsonl_data_866_100_GPT3_5_433.jsonl
+contest number 688, use GPT-3.5 to fine tune, samples were taken from the three categories at a ratio of 4:3:3, the total number of samples is 100
+model:  ft:gpt-3.5-turbo-1106:personal::8O8xIVLy
+test result(accuracy): 'funny': 0.6, 'somewhat_funny': 0.16176470588235295, 'not_funny': 0.17708333333333334
