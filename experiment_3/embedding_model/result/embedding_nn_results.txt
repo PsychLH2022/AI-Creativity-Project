@@ -1,0 +1,50 @@
+We used the embedding nethod to make each caption to be a vector and then used vectors to create a neural network model.
+A hyperparameter tuning model was implemented to determine the optimal hyperparameters for the neural network. 
+Due to the stochastic characteristics of the hyperparameter tuning process, the outcomes vary with each execution. 
+Nonetheless, the average accuracy of the test results remains similar, regardless of the hyperparameters identified as the best.
+
+Some constants for embedding
+vocab_size = 6000   # Choose based on the vocabulary size of your dataset
+max_length = 15    # Choose based on the length of your longest caption
+embedding_dim = 300   # Size of the word embeddings
+
+Here we show the 5 best hyperparameters and results of their crresponding models for one execution.
+Model_1:
+hyperparameters - 'unit': 256, 'activation': 'relu', 'l1': 0.0, 'l2': 0.0001, 'dropout': 0.0, 'learning_rate': 0.0001
+result - 
+Accuracy average:  0.35876840696117807
+Accuracy funny:  0.25769230769230766
+Accuracy somewhat funny:  0.44680851063829785
+Accuracy not funny:  0.38095238095238093
+
+Model_2:
+hyperparameters - 'unit': 192, 'activation': 'relu', 'l1': 0.01, 'l2': 0.0, 'dropout': 0.0, 'learning_rate': 0.0001
+result - 
+Accuracy average:  0.4002677376171352
+Accuracy funny:  0.4807692307692308
+Accuracy somewhat funny:  0.251063829787234
+Accuracy not funny:  0.45634920634920634
+
+Model_3:
+hyperparameters - 'unit': 96, 'activation': 'tanh', 'l1': 0.01, 'l2': 0.0, 'dropout': 0.4, 'learning_rate': 0.0001
+result - 
+Accuracy average:  0.392235609103079
+Accuracy funny:  0.4461538461538462
+Accuracy somewhat funny:  0.3574468085106383
+Accuracy not funny:  0.36904761904761907
+
+Model_4:
+hyperparameters - 'unit': 160, 'activation': 'relu', 'l1': 0.001, 'l2': 0.001, 'dropout': 0.30000000000000004, 'learning_rate': 0.0001
+result - 
+Accuracy average:  0.3627844712182062
+Accuracy funny:  0.35384615384615387
+Accuracy somewhat funny:  0.37446808510638296
+Accuracy not funny:  0.3611111111111111
+
+Model_5: 
+hyperparameters - 'unit': 256, 'activation': 'tanh', 'l1': 0.0001, 'l2': 0.001, 'dropout': 0.0, 'learning_rate': 0.01
+result - 
+Accuracy average:  0.3119143239625167
+Accuracy funny:  0.03076923076923077
+Accuracy somewhat funny:  0.9106382978723404
+Accuracy not funny:  0.04365079365079365

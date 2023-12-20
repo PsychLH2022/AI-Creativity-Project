@@ -1,0 +1,45 @@
+We identified the top 30 critical features to develop the neural network model. 
+A hyperparameter tuning model was implemented to determine the optimal hyperparameters for the neural network. 
+Due to the stochastic characteristics of the hyperparameter tuning process, the outcomes vary with each execution. 
+Nonetheless, the average accuracy of the test results remains similar, regardless of the hyperparameters identified as the best.
+
+Here we show the 5 best hyperparameters and results of their crresponding models for one execution.
+Model_1:
+hyperparameters - 'unit': 96, 'activation': 'relu', 'l1': 0.001, 'l2': 0.0001, 'dropout': 0.0, 'learning_rate': 0.001
+result - 
+Accuracy average: 0.3427041499330656
+Accuracy funny: 0.2931726907630522
+Accuracy somewhat funny: 0.3815261044176707
+Accuracy not funny: 0.3534136546184739
+
+Model_2:
+hyperparameters - 'unit': 64, 'activation': 'relu', 'l1': 0.0, 'l2': 0.0, 'dropout': 0.2, 'learning_rate': 0.01
+result - 
+Accuracy average: 0.31860776439089694
+Accuracy funny: 0.4497991967871486
+Accuracy somewhat funny: 0.4859437751004016
+Accuracy not funny: 0.020080321285140562
+
+Model_3:
+hyperparameters - 'unit': 128, 'activation': 'relu', 'l1': 0.0, 'l2': 0.001, 'dropout': 0.4, 'learning_rate': 0.001
+result - 
+Accuracy average: 0.33467202141900937
+Accuracy funny: 0.19678714859437751
+Accuracy somewhat funny: 0.6224899598393574
+Accuracy not funny: 0.18473895582329317
+
+Model_4:
+hyperparameters - 'unit': 224, 'activation': 'relu', 'l1': 0.0001, 'l2': 0.0, 'dropout': 0.1, 'learning_rate': 0.01
+result - 
+Accuracy average: 0.31994645247657294
+Accuracy funny: 0.927710843373494
+Accuracy somewhat funny: 0.004016064257028112
+Accuracy not funny: 0.028112449799196786
+
+Model_5:
+hyperparameters - 'unit': 192, 'activation': 'relu', 'l1': 0.0, 'l2': 0.01, 'dropout': 0.30000000000000004, 'learning_rate': 0.001
+result - 
+Accuracy average: 0.3386880856760375
+Accuracy funny: 0.23694779116465864
+Accuracy somewhat funny: 0.5140562248995983
+Accuracy not funny: 0.26506024096385544
