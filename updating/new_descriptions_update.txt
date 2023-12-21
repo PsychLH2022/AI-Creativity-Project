@@ -1,0 +1,7 @@
+This update has no code.
+To update future cartoon contest descriptions in the database, the workflow will involve two AI models: the llava model and ChatGPT-4. 
+These models will generate descriptions for the cartoons of new contests. 
+Once these descriptions are available, a project team member needs to manually insert both descriptions into the "new_descriptions" table in the database. 
+This process will be used for each new cartoon contest, starting with contest number 878 as the initial example.
+
+The llava model link: https://llava-vl.github.io/
